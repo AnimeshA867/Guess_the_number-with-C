@@ -24,7 +24,7 @@ int main(){
         printf("You took %d tries to guess the number.",guess);
         break;
     }
-    if(i==9){
+    if(i%9==0&&i>=9){
     printf("Do you wanna continue, if yes please press 1:");
     scanf("%d",&c);
     if(c!=1){
